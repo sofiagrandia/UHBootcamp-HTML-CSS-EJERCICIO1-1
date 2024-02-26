@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJERCICIO 1-1</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://kit.fontawesome.com/366cc6aecb.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img
+          src="./images/Mozza-Bar-Logo.png"
+          alt="Mozzabar Logo"
+          class="logo"
+        />
+        <ul class="navUl">
+          <li><a href="#home" class="navLink">Home</a></li>
+          <li><a href="#concepto" class="navLink">Concepto</a></li>
+          <li><a href="#fotos" class="navLink">Fotos</a></li>
+          <li><a href="#menu" class="navLink">Menu</a></li>
+          <li><a href="#reservas" class="navLink">Reservas</a></li>
+          <li><a href="#blog" class="navLink">Blog</a></li>
+          <li><a href="#contacto" class="navLink">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <h2 class="descubre">Descubre</h2>
+        <h1 class="title">MOZZA BAR</h1>
+        <div class="separator">
+          <hr class="dotted" />
+        </div>
+        <h3 class="subtitle white-font">We are open</h3>
+      </section>
+      <section class="concepto" id="concepto">
+        <div class="black-box">
+          <img class="coctel" src="./images/coctel.png" alt="coctel" />
+          <img class="hoja" src="./images/hoja.png" alt="hoja" />
+          <h3 class="subtitle white-font head-border">CONCEPTO</h3>
+          <p class="body-text white-font">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quidem
+            sequi iste minima, vero saepe consequatur unde assumenda labore? Sed
+            recusandae ab mollitia quasi quam quibusdam perspiciatis modi
+            accusamus nostrum.
+          </p>
+          <p class="body-text white-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            blanditiis labore nisi nostrum rerum. Illo, cumque itaque, natus
+            odit quis ex est totam molestiae, laboriosam vitae obcaecati fuga
+            harum rerum!
+          </p>
+          <p class="body-text white-font">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            autem praesentium, debitis veritatis veniam dolores animi quasi
+            voluptas modi cumque! In, similique doloremque vitae consequatur
+            nostrum nobis a eligendi minima.
+          </p>
+        </div>
+      </section>
+      <section class="fotos" id="fotos">
+        <img
+          class="foto-rest"
+          src="./images/foto1.jpg"
+          alt="foto restaurante"
+        />
+        <img
+          class="foto-rest"
+          src="./images/foto2.jpg"
+          alt="foto restaurante"
+        />
+        <img
+          class="foto-rest"
+          src="./images/foto3.jpg"
+          alt="foto restaurante"
+        />
+        <img
+          class="foto-rest"
+          src="./images/foto4.jpg"
+          alt="foto restaurante"
+        />
+        <img
+          class="foto-rest"
+          src="./images/foto5.jpg"
+          alt="foto restaurante"
+        />
+        <img
+          class="foto-rest"
+          src="./images/foto6.jpg"
+          alt="foto restaurante"
+        />
+        <img
+          class="foto-rest"
+          src="./images/foto7.jpg"
+          alt="foto restaurante"
+        />
+      </section>
+      <section class="menu" id="menu">
+        <div class="subtitle-size">
+          <h3 class="subtitle dark-font head-border">CARTA</h3>
+        </div>
+        <img class="menu-img" src="./images/menu.png" alt="Menu" />
+      </section>
+      <section class="reservas" id="reservas">
+        <div class="subtitle-size">
+          <h3 class="subtitle white-font head-border">RESERVAS</h3>
+        </div>
+        <div class="reservas-div">
+          <form class="reservas-form" action="">
+            <div class="reservas-pax-hora">
+              <label class="body-text white-font" for="personas"
+                >Personas:</label
+              >
+              <input type="number" name="personas" id="personas" />
+              <label class="body-text white-font" for="hora">Hora:</label>
+              <input type="time" name="hora" id="hora" />
+            </div>
+            <label class="body-text white-font" for="tipo-mesa"
+              >Tipo de mesa:</label
+            >
+            <select name="tipo-mesa" id="tipo-mesa">
+              <option value="">--Elija una opcion--</option>
+              <option value="terraza">Terraza</option>
+              <option value="sala">Sala</option>
+            </select>
+            <button type="submit">Reservar</button>
+            <p class="body-text white-font">
+              Si no encuentra disponibilidad, apúntese a la lista de esepra.
+            </p>
+            <button type="submit">Lista de espera</button>
+            <button type="submit">Solicitud de grupo</button>
+          </form>
+
+          <div class="reservas-text">
+            <h2 class="orange-title">MOZZABAR</h2>
+            <h3 class="white-title">Food and Drinks</h3>
+            <p class="small-text white-font">Conde Peñalver 64</p>
+            <p class="small-text white-font">28006 Madrid</p>
+            <p class="small-text white-font">De Lunes a Domingo</p>
+            <p class="small-text white-font">7:30-23:30</p>
+          </div>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <div class="subtitle-size">
+          <h3 class="subtitle dark-font head-border">BLOG</h3>
+        </div>
+
+        <div class="article-group">
+          <article class="article art-img-1">
+            <a href="">
+              <h4 class="subtitle white-font">
+                Mozza bar abre nueva terraza de verano en bombay lounge
+              </h4>
+            </a>
+          </article>
+          <article class="article art-img-2">
+            <a href="">
+              <h4 class="subtitle white-font">
+                promocion especial: tarta & cocktail 6.90€
+              </h4>
+            </a>
+          </article>
+          <article class="article art-img-3">
+            <a href="">
+              <h4 class="subtitle white-font">Mozza bar brunch 2 de marzo</h4>
+            </a>
+          </article>
+        </div>
+        <button class="orange-button" type="submit">Ver todas las entradas</button>
+      </section>
+      <section class="contacto" id="contacto">
+        <div class="contacto-div">
+          <img
+            src="./images/Mozza-Bar-Logo.png"
+            alt="Mozzabar Logo"
+            class="logo-contacto"
+          />
+          <h3 class="subtitle white-font">VEN CUANDO QUIERAS</h3>
+          <div class="contacto-detalles">
+            <div class="icons">
+              <span class="fa-regular fa-map orange-title"></span>
+              <p class="body-text white-font">Calle Conde Peñalver 64</p>
+            </div>
+            <div class="icons">
+              <span class="fa-solid fa-mobile orange-title"></span>
+              <p class="body-text white-font">0123456789</p>
+            </div>
+            <div class="icons">
+              <span class="	fa-regular fa-envelope orange-title"></span>
+              <p class="body-text white-font">email@ejemplo.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="socials">
+          <div class="subtitle-size">
+            <h3 class="subtitle dark-font head-border">SIGUENOS</h3>
+          </div>
+
+          <div class="socials-links">
+            <a class="socials-button" href="">FACEBOOK</a>
+            <a class="socials-button" href="">INSTAGRAM</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h3 class="subtitle dark-font">ENLACES DE INTERÉS</h3>
+       <ul>
+        <li><a class="body-text dark-font" href="">XXXXXX</a></li>
+        <li><a class="body-text dark-font" href="">XXXXXX</a></li>
+       </ul>
+      </div>
+      <div>
+        <h3 class="subtitle dark-font">HORARIOS</h3>
+        <p class="body-text dark-font">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div>
+        <h3 class="subtitle dark-font">CONTACTO</h3>
+        <ul>
+          <li><a class="body-text dark-font" href="">XXXXXX</a></li>
+          <li><a class="body-text dark-font" href="">XXXXXX</a></li>
+         </ul>
+      </div>
+    </footer>
+  </body>
+</html>
